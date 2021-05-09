@@ -3,10 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
-h3{
+p {
   font-family: "Lato", sans-serif;
-  font-size: 10pt;
-  text-align: left;
+  text-align: center;
 }
 .center {
     display:block;
@@ -28,7 +27,7 @@ h3{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 14pt;
+  font-size: 1.2vw;
 }
 .topnav a:hover {
   background-color: #ddd;
@@ -37,6 +36,10 @@ h3{
 .topnav a.active {
   background-color: gray;
   color: white;
+}
+.image-left {
+  width: 30vw;
+  height: auto;
 }
 .Header {
   margin-top: 2%;
